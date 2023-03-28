@@ -18,8 +18,8 @@ try{
     console.log("Error: "+error);
 }
 
-const studentrouter= require("./routes/students");
-app.use('/students',studentrouter)
+const userrouter= require("./routes/user");
+app.use('/users',userrouter)
 
 
 
